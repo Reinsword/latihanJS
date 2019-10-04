@@ -14,10 +14,21 @@
         <h1 id="banner"></h1>
     </div>
     <br>
-    <div style="width: 30%; text-align: center;">
+    <!-- <div style="width: 30%; text-align: center;">
         <input type="text " class="form-control " id="nama " placeholder="Masukkan nama Anda! ">
         <br>
         <button id="button " onclick="P() ">P!</button>
+    </div> -->
+    <div>
+        <input type="text" class="form-control" id="angka_pertama" placeholder="Masukkan Angka Pertama">
+        <br>
+        <input type="text" class="form-control" id="angka_kedua" placeholder="Masukkan Angka Kedua">
+        <br>
+        <button class="btn btn-md btn-success" id="plus" onclick="tambahkan()">Tambahkan</button>
+    </div>
+
+    <div>
+        <label>Hasil :<input id="hasil" class="form-control" readonly></label>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
